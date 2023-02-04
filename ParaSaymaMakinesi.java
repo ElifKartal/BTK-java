@@ -1,38 +1,45 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
 public class ParaSaymaMakinesi {
     public static void main(String[] args) {
-        Scanner keyboard =new Scanner(System.in);
-        System.out.println("Bir sayı gir: ");
-        int number= keyboard.nextInt();
-        int birkurus, bes, on , yirmibes, elli;
-        elli =number / 50;
-        number =number % 50;
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Bir sayi gir: ");
+        int number = keyboard.nextInt();
+        int birKurus, besKurus, onKurus, yirmiBesKurus, elliKurus;
+        elliKurus = number / 50;
+        number = number % 50;
 
-        yirmibes =number / 25;
-        number =number % 25;
+        yirmiBesKurus = number / 25;
+        number = number % 25;
+
+        onKurus = number / 10;
+        number = number % 10;
+
+        besKurus = number / 5;
+        number = number % 5;
+
+        birKurus = number / 1;
+        number = number % 1;
+        System.out.println("Elli kurus sayisi: " + elliKurus);
+        System.out.println("Yirmi bes kurus sayisi: " + yirmiBesKurus);
+        System.out.println("On kurus sayisi: " + onKurus);
+        System.out.println("Bes kurus sayisi: " + besKurus);
+        System.out.println("Bir kurus sayisi: " + birKurus);
+
         
-        on =number / 10;
-        number =number % 10;
-        
-        bes =number / 5;
-        number =number % 5;
-        
-        birkurus =number / 1;
-        
-        number =number % 1;
-        
-        System.out.println("Elli sayisi:" + elli);
-        
-        System.out.println("Yirmibes sayisi:" + yirmibes);
-        
-        System.out.println("on sayisi:" + on);
-        
-        System.out.println("bes sayisi:" + bes);
-        
-        System.out.println("bir sayisi:" + birkurus);
+        // System.out.println("Bir sayi gir: ");
+        // int number = keyboard.nextInt();
+        // int birKurus, besKurus, onKurus, yirmiBesKurus, elliKurus;
+        // elliKurus = number / 50;
+
+        // yirmiBesKurus = number / 25;
+
+        // onKurus = number / 10;
+
+        // besKurus = number / 5;
+
+        // birKurus = number / 1;
+        // System.out.println("Elli kurus sayisi: " + elliKurus + "\n" + "Yirmi bes kurus sayisi: " + yirmiBesKurus + "\n" + "On kurus sayisi: " + onKurus + "\n" + "Bes kurus sayisi: " + besKurus + "\n" + "Bir kurus sayisi: " + birKurus);
         keyboard.close();
-
     }
 }

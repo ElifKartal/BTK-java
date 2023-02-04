@@ -1,5 +1,4 @@
 package Methods;
-
 public class ClassDeneme {
     public static void main(String[] args) {
         Class1.print("merhaba");

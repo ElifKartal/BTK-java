@@ -1,5 +1,6 @@
 import java.util.Arrays;
 public class Sıralama {
+    
     public static void main(String[] args) {
        String [] array={
        "HUMPTY SHARMA KI DULHANIA",
@@ -171,10 +172,11 @@ public class Sıralama {
        "THE INTEREST OF LOVE",
        "WOK OF LOVE",
        "WEDNESDAY",
-       "GLITCH"
-       
+       "GLITCH",
+       "CRASH COURSE IN ROMANCE"
        
        };
+       
        Arrays.sort(array);
        for(String isimler : array){
         System.out.println(isimler);

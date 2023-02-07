@@ -173,7 +173,8 @@ public class Sıralama {
        "WOK OF LOVE",
        "WEDNESDAY",
        "GLITCH",
-       "CRASH COURSE IN ROMANCE"
+       "CRASH COURSE IN ROMANCE",
+       "SNOWDROP"
        
        };
        

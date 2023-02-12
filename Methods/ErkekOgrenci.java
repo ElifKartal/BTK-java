@@ -2,7 +2,7 @@ package Methods;
 
 public class ErkekOgrenci extends Ogrenci {
     private String isim;
-    private int numara;
+    public int numara;
 
     public ErkekOgrenci(String isim, int numara) {
         super(isim, numara);

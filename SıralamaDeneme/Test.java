@@ -3,10 +3,10 @@ class Test {
         // primitive data types
         char char1;
         char1 = 'a';
-        float float1;
-        long long1;
-        byte byte1;
-        short short1;
+        // float float1;
+        // long long1;
+        // byte byte1;
+        // short short1;
         boolean boolean1;
         boolean1 = true;
         boolean1 = false;
@@ -15,6 +15,7 @@ class Test {
         double y;
         y = 5.5;
         String z = "merhaba";
+        System.out.println(y);
         System.out.println(x);
         System.out.println(z);
         double sayi1;
@@ -24,8 +25,8 @@ class Test {
         System.out.println(sayi1);
         System.out.println(sayi2);
         System.out.println("Hello world!");
-        int sayi3 = 2 + 5;
-        int sayi4 = 3 - 2;
+        // int sayi3 = 2 + 5;
+        // int sayi4 = 3 - 2;
         int sayi5 = 6 / 2;
         int sayi6 = 7 / 2;
         double sayi7 = (double)sayi6;

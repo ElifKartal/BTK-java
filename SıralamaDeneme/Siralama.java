@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class Sıralama {
+public class Siralama {
     
     public static void main(String[] args) {
        String [] array={

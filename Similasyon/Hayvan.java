@@ -4,4 +4,6 @@ public class Hayvan extends Nesne {
     public Hayvan(int x, int y) {
         super(x, y);
     }
+    public void sesCikar() {
+    }
 }

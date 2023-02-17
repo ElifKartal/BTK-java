@@ -16,4 +16,4 @@ public class Kedi implements Hayvan {
     public int getAyakSayisi() {
         return ayakSayisi;
     }
-}
+} 

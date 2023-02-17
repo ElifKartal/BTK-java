@@ -15,5 +15,5 @@ public class Tavsan implements Hayvan {
     }
     public int getAyakSayisi() {
         return ayakSayisi;
-    }
+    } 
 }

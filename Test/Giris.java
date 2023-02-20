@@ -1,51 +1,48 @@
 import java.util.Scanner;
 
-
-public class Giris {
+class Giris{
     public static void main(String[] args) {
-        Scanner keyboard =new Scanner(System.in);
-        System.out.println("Bir yazi yaz:");
-        String text;
-        text=keyboard.nextLine();
-        System.out.println("Girdiğiniz yazi: "+text);
-        Scanner keyboard2 =new Scanner(System.in);
-        System.out.println("Bir sayi yaz:");
-        int number;
-        number =keyboard.nextInt();
-        if(number< 10){
-            System.out.println("sayi 10 dan küçük");
+        Scanner keyboard = new Scanner(System.in);
+        // System.out.print("Bir sayi yaz: ");
+        // int number;
+        // number = keyboard.nextInt();
+        // if (number % 2 == 0) {
+        //     System.out.println("Cift sayi");
+        // } else {
+        //     System.out.println("Tek sayi");
+        // }
+        // System.out.print("Bir daha sayi yaz: ");
+        // int number2;
+        // number2 = keyboard.nextInt();
+        // if (number2 < 10) {
+        //     System.out.println("Sayi 10'dan kucuk");
+        // } else {
+        //     System.out.println("Sayi 10'dan buyuk");
+        // }
+        // System.out.println("Bir sey yaz: ");
+        // String yazi1 = keyboard.next();
+        // String yazi2 = keyboard.next();
+        // System.out.println("Yazi1: " + yazi1);
+        // System.out.println("Yazi2: " + yazi2);
+        System.out.println("Bir sayi gir: ");
+        int number = keyboard.nextInt();
+        if (number < 10) {
+            System.out.println("Sayi 10'dan kucuk");
+        } else {
+            System.out.println("Sayi 10'dan buyuk");
         }
-        else{
-            System.out.println("sayi 10 dan büyük");
+        if (number % 2 == 0) {
+            System.out.println("Cift sayi");
         }
-        Scanner keyboard3 =new Scanner(System.in);
-        System.out.println("Bir sey yaz:");
-        String string1=keyboard.next();
-        String string2=keyboard.next();
-        System.out.println("Yazi1: "+ string1);
-        System.out.println("Yazi1: "+ string2);
-       
-       
-        Scanner keyboard4 =new Scanner(System.in);
-        System.out.println("Bir sayi gir:");
-        int number2=keyboard.nextInt();
-        if(number2 < 10){
-            System.out.println("sayi 10 dan küçük");
+        else {
+            System.out.println("Tek sayi");
         }
-        else{
-            System.out.println("sayi 10 dan büyük");
+        if (number >= 2 && number <= 4) {
+            System.out.println("Sayi 2 ve 4 arasinda");
         }
-        if(number2 %2==0){
-            System.out.println("sayi çift");
+        if (number < 10 || number % 2 == 0) {
+            System.out.println("Sayi 10'dan kucuk veya cift");
         }
-        else{
-            System.out.println("sayi tek");
-        }
-        if(number2 >2 && number2 <=4){
-            System.out.println("sayi 2 ve 4 arasinda");
-        }
-        if(number2 <10 || number2 %2==0){
-            System.out.println("sayi cift veya 10 dan küçük");
-        }
+        keyboard.close();
     }
 }

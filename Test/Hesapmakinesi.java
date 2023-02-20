@@ -25,7 +25,7 @@ public class Hesapmakinesi {
         //         sonuc = number1 / number2;
         //         break;
         // }
-        if (islem == 1)
+        if (islem == 1 )
             sonuc = number1 + number2;
         else if (islem == 2)
             sonuc = number1 - number2;
